@@ -111,7 +111,7 @@ em{ font-style: italic; color: var(--gold-bright); }
 
 .eyebrow{
   font-size: 0.82rem; letter-spacing: 0.14em; text-transform: uppercase;
-  color: var(--gold); margin-bottom: 1.6rem; font-weight: 600;
+  color: var(--gold); margin-bottom: 0.4rem; font-weight: 600;
 }
 
 .hero-title{

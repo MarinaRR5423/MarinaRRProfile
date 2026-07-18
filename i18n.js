@@ -10,7 +10,7 @@ const translations = {
     "nav.contact": "Contact",
     "nav.sayHello": "Say hello →",
 
-    "hero.eyebrow": "Bordeaux, France — Open to international opportunities",
+    "hero.eyebrow": "Bordeaux, France",
     "hero.role": "Sales Leader <em>→</em> Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>Actively looking for a <strong>Product Manager</strong> / <strong>Product Owner</strong> role",
     "hero.desc": "Proactive and ambitious leader with a decade in international B2B SaaS growth — now retraining and building hands-on toward Product. Over the past year I've designed, built and shipped a live mobile app solo, and earned a Product Management diploma alongside it. I bring commercial instinct, user empathy and a bias for shipping.",
@@ -123,7 +123,7 @@ const translations = {
     "nav.contact": "Contact",
     "nav.sayHello": "Me contacter →",
 
-    "hero.eyebrow": "Bordeaux, France — Ouverte aux opportunités internationales",
+    "hero.eyebrow": "Bordeaux, France",
     "hero.role": "Directrice commerciale <em>→</em> Chef de produit",
     "hero.badge": "<span class=\"status-dot\"></span>À la recherche active d'un poste de <strong>Product Manager</strong> / <strong>Product Owner</strong>",
     "hero.desc": "Dirigeante proactive et ambitieuse, avec dix ans de croissance commerciale B2B à l'international — aujourd'hui en reconversion et en construction concrète vers le Produit. Au cours de l'année écoulée, j'ai conçu, développé et lancé seule une application mobile, tout en obtenant un diplôme en gestion de produit. J'apporte un sens commercial, de l'empathie utilisateur et un vrai goût pour livrer.",
@@ -236,7 +236,7 @@ const translations = {
     "nav.contact": "Contacto",
     "nav.sayHello": "Escríbeme →",
 
-    "hero.eyebrow": "Burdeos, Francia — Abierta a oportunidades internacionales",
+    "hero.eyebrow": "Burdeos, Francia",
     "hero.role": "Líder de ventas <em>→</em> Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>En búsqueda activa de un puesto de <strong>Product Manager</strong> / <strong>Product Owner</strong>",
     "hero.desc": "Líder proactiva y ambiciosa, con una década liderando el crecimiento comercial B2B a nivel internacional — ahora en plena reconversión, construyendo de forma práctica hacia el Producto. Durante el último año he diseñado, construido y lanzado en solitario una app móvil, además de obtener un diploma en gestión de producto. Aporto instinto comercial, empatía con la usuaria y una fuerte orientación a lanzar cosas reales.",
