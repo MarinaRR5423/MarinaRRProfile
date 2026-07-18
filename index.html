@@ -20,15 +20,27 @@
 <header class="site-header">
   <div class="wrap header-inner">
     <a href="#top" class="brand">MRR</a>
-    <nav class="main-nav" id="mainNav">
-      <a href="#about"><span class="idx">01</span>About</a>
-      <a href="#experience"><span class="idx">02</span>Experience</a>
-      <a href="#projects"><span class="idx">03</span>Projects</a>
-      <a href="#expertise"><span class="idx">04</span>Expertise</a>
-      <a href="#contact"><span class="idx">05</span>Contact</a>
-    </nav>
-    <a class="cta-mini" href="mailto:marina.r.1348@gmail.com">Say hello →</a>
-    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    <div class="header-right">
+      <nav class="main-nav" id="mainNav">
+        <a href="#about"><span class="idx">01</span><span data-i18n="nav.about">About</span></a>
+        <a href="#experience"><span class="idx">02</span><span data-i18n="nav.experience">Experience</span></a>
+        <a href="#projects"><span class="idx">03</span><span data-i18n="nav.projects">Projects</span></a>
+        <a href="#expertise"><span class="idx">04</span><span data-i18n="nav.expertise">Expertise</span></a>
+        <a href="#contact"><span class="idx">05</span><span data-i18n="nav.contact">Contact</span></a>
+        <div class="lang-switch" id="langSwitchMobile" role="group" aria-label="Language">
+          <button type="button" data-lang="en" class="lang-btn is-active">EN</button>
+          <button type="button" data-lang="fr" class="lang-btn">FR</button>
+          <button type="button" data-lang="es" class="lang-btn">ES</button>
+        </div>
+      </nav>
+      <div class="lang-switch lang-switch--desktop" id="langSwitch" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="lang-btn is-active">EN</button>
+        <button type="button" data-lang="fr" class="lang-btn">FR</button>
+        <button type="button" data-lang="es" class="lang-btn">ES</button>
+      </div>
+      <a class="cta-mini" href="mailto:marina.r.1348@gmail.com" data-i18n="nav.sayHello">Say hello →</a>
+      <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
+    </div>
   </div>
 </header>
 
@@ -51,7 +63,7 @@
     </div>
 
     <div class="wrap hero-grid">
-      <p class="eyebrow reveal">Bordeaux, France — Open to international opportunities</p>
+      <p class="eyebrow reveal" data-i18n="hero.eyebrow">Bordeaux, France — Open to international opportunities</p>
       <h1 class="hero-title">
         <span class="reveal" style="--d:0">Marina</span>
         <span class="reveal outline" style="--d:1">Ruiz</span>
@@ -59,15 +71,15 @@
       </h1>
       <div class="hero-role reveal" style="--d:3">
         <span class="role-line"></span>
-        <h2>Sales Leader <em>→</em> Product Manager</h2>
+        <h2 data-i18n-html="hero.role">Sales Leader <em>→</em> Product Manager</h2>
       </div>
 
-      <div class="status-badge reveal" style="--d:3.5">
+      <div class="status-badge reveal" style="--d:3.5" data-i18n-html="hero.badge">
         <span class="status-dot"></span>
         Actively looking for a <strong>Product Manager</strong> / <strong>Product Owner</strong> role
       </div>
 
-      <p class="hero-desc reveal" style="--d:4">
+      <p class="hero-desc reveal" style="--d:4" data-i18n="hero.desc">
         Proactive and ambitious leader with a decade in international B2B SaaS growth —
         now retraining and building hands-on toward Product. Over the past year I've
         designed, built and shipped a live mobile app solo, and earned a Product
@@ -75,13 +87,13 @@
         and a bias for shipping.
       </p>
       <div class="hero-actions reveal" style="--d:5">
-        <a href="#projects" class="btn btn-primary">View projects</a>
-        <a href="#contact" class="btn btn-ghost">Get in touch</a>
+        <a href="#projects" class="btn btn-primary" data-i18n="hero.ctaProjects">View projects</a>
+        <a href="#contact" class="btn btn-ghost" data-i18n="hero.ctaContact">Get in touch</a>
       </div>
     </div>
 
     <div class="hero-scroll" aria-hidden="true">
-      <span>Scroll</span>
+      <span data-i18n="hero.scroll">Scroll</span>
       <div class="scroll-line"><i></i></div>
     </div>
   </section>
@@ -89,15 +101,15 @@
   <!-- MARQUEE -->
   <div class="marquee" aria-hidden="true">
     <div class="marquee-track">
-      <span>Strategy Development</span><span>·</span>
-      <span>Team Leadership</span><span>·</span>
-      <span>International Key Accounts</span><span>·</span>
-      <span>Onboarding &amp; Partnership</span><span>·</span>
+      <span data-i18n="marquee.strategy">Strategy Development</span><span>·</span>
+      <span data-i18n="marquee.leadership">Team Leadership</span><span>·</span>
+      <span data-i18n="marquee.accounts">International Key Accounts</span><span>·</span>
+      <span data-i18n="marquee.onboarding">Onboarding &amp; Partnership</span><span>·</span>
       <span>ERP · PIM · CRM · CMS</span><span>·</span>
-      <span>Strategy Development</span><span>·</span>
-      <span>Team Leadership</span><span>·</span>
-      <span>International Key Accounts</span><span>·</span>
-      <span>Onboarding &amp; Partnership</span><span>·</span>
+      <span data-i18n="marquee.strategy">Strategy Development</span><span>·</span>
+      <span data-i18n="marquee.leadership">Team Leadership</span><span>·</span>
+      <span data-i18n="marquee.accounts">International Key Accounts</span><span>·</span>
+      <span data-i18n="marquee.onboarding">Onboarding &amp; Partnership</span><span>·</span>
       <span>ERP · PIM · CRM · CMS</span><span>·</span>
     </div>
   </div>
@@ -106,17 +118,17 @@
   <section id="about" class="section about">
     <div class="wrap about-grid">
       <div class="section-head">
-        <span class="tag reveal-up">01 / About</span>
-        <h2 class="reveal-up">A decade of building<br>revenue &amp; relationships.</h2>
+        <span class="tag reveal-up" data-i18n="about.tag">01 / About</span>
+        <h2 class="reveal-up" data-i18n-html="about.heading">A decade of building<br>revenue &amp; relationships.</h2>
       </div>
       <div class="about-body">
-        <p class="reveal-up">
+        <p class="reveal-up" data-i18n="about.p1">
           I'm a proactive and ambitious sales leader with a strong passion for team building
           and problem-solving — always learning, always ready for the next challenge.
           Over the past ten years I've moved from field sales in surgical equipment to
           leading Sales, Onboarding &amp; Partnership at an international SaaS marketplace platform.
         </p>
-        <p class="reveal-up">
+        <p class="reveal-up" data-i18n="about.p2">
           I care about the systems behind the numbers: process, mentoring, and honest
           reporting — the infrastructure that lets a sales team scale without losing its edge.
         </p>
@@ -124,15 +136,15 @@
         <div class="stat-row">
           <div class="stat reveal-up">
             <span class="stat-num" data-count="10">0</span><span class="stat-suffix">+</span>
-            <span class="stat-label">Years in international sales</span>
+            <span class="stat-label" data-i18n="about.stat1">Years in international sales</span>
           </div>
           <div class="stat reveal-up">
             <span class="stat-num" data-count="50">0</span><span class="stat-suffix">%</span>
-            <span class="stat-label">Growth delivered, year two at BeezUP</span>
+            <span class="stat-label" data-i18n="about.stat2">Growth delivered, year two at BeezUP</span>
           </div>
           <div class="stat reveal-up">
-            <span class="stat-num" data-count="4">0</span><span class="stat-suffix"> lgs</span>
-            <span class="stat-label">Spanish · Catalan · French · English</span>
+            <span class="stat-num" data-count="4">0</span><span class="stat-suffix" data-i18n="about.stat3suffix"> lgs</span>
+            <span class="stat-label" data-i18n="about.stat3">Spanish · Catalan · French · English</span>
           </div>
         </div>
       </div>
@@ -143,8 +155,8 @@
   <section id="experience" class="section experience">
     <div class="wrap">
       <div class="section-head">
-        <span class="tag reveal-up">02 / Experience</span>
-        <h2 class="reveal-up">Where I've led &amp; grown</h2>
+        <span class="tag reveal-up" data-i18n="exp.tag">02 / Experience</span>
+        <h2 class="reveal-up" data-i18n="exp.heading">Where I've led &amp; grown</h2>
       </div>
 
       <div class="timeline">
@@ -154,13 +166,13 @@
           <div class="tl-date">2025 — Now</div>
           <div class="tl-content">
             <div class="tl-top">
-              <h3>Full-time Product Management Training</h3>
-              <span class="tl-company">Studi · Remote</span>
+              <h3 data-i18n="exp.t1.title">Full-time Product Management Training</h3>
+              <span class="tl-company">Studi · <span data-i18n="exp.remote">Remote</span></span>
             </div>
             <ul>
-              <li>Left BeezUP at the end of December 2025 to focus full-time on the transition into Product.</li>
-              <li>Completed the Bac+3 <em>Responsable de Projet Digital</em> program — scoping, buyer personas &amp; UX (Figma), agile delivery, digital &amp; e-commerce strategy, performance and compliance monitoring.</li>
-              <li class="tl-highlight">Applied it hands-on by designing, building and shipping <strong>Blumm</strong>, a live mobile app, end-to-end.</li>
+              <li data-i18n="exp.t1.li1">Left BeezUP at the end of December 2025 to focus full-time on the transition into Product.</li>
+              <li data-i18n-html="exp.t1.li2">Completed the Bac+3 <em>Responsable de Projet Digital</em> program — scoping, buyer personas &amp; UX (Figma), agile delivery, digital &amp; e-commerce strategy, performance and compliance monitoring.</li>
+              <li class="tl-highlight" data-i18n-html="exp.t1.li3">Applied it hands-on by designing, building and shipping <strong>Blumm</strong>, a live mobile app, end-to-end.</li>
             </ul>
           </div>
         </article>
@@ -170,16 +182,16 @@
           <div class="tl-date">2022 — 2025</div>
           <div class="tl-content">
             <div class="tl-top">
-              <h3>Head of Sales, Onboarding &amp; Partnership</h3>
+              <h3 data-i18n="exp.t2.title">Head of Sales, Onboarding &amp; Partnership</h3>
               <span class="tl-company">BeezUP · Paris, France</span>
             </div>
             <ul>
-              <li>Developed, implemented and continuously evaluated sales &amp; onboarding methods, processes and goals.</li>
-              <li>Built monitoring systems and reporting for sales metrics and performance.</li>
-              <li>Recruited, trained, mentored and motivated the Sales &amp; Onboarding teams.</li>
-              <li>Defined best practices in sales and onboarding techniques and methodologies.</li>
-              <li>Created and developed sales strategies for sellers and partners.</li>
-              <li>Analyzed market needs to guide the development team's implementation strategy.</li>
+              <li data-i18n="exp.t2.li1">Developed, implemented and continuously evaluated sales &amp; onboarding methods, processes and goals.</li>
+              <li data-i18n="exp.t2.li2">Built monitoring systems and reporting for sales metrics and performance.</li>
+              <li data-i18n="exp.t2.li3">Recruited, trained, mentored and motivated the Sales &amp; Onboarding teams.</li>
+              <li data-i18n="exp.t2.li4">Defined best practices in sales and onboarding techniques and methodologies.</li>
+              <li data-i18n="exp.t2.li5">Created and developed sales strategies for sellers and partners.</li>
+              <li data-i18n="exp.t2.li6">Analyzed market needs to guide the development team's implementation strategy.</li>
             </ul>
           </div>
         </article>
@@ -189,15 +201,15 @@
           <div class="tl-date">2019 — 2022</div>
           <div class="tl-content">
             <div class="tl-top">
-              <h3>International Key Account Manager &amp; Partnership</h3>
+              <h3 data-i18n="exp.t3.title">International Key Account Manager &amp; Partnership</h3>
               <span class="tl-company">BeezUP · Paris, France</span>
             </div>
             <ul>
-              <li>SaaS product specialist — acquisition, negotiation and monitoring of major international accounts.</li>
-              <li>Advised clients on defining their digital Marketplace strategy.</li>
-              <li>Owned onboarding: incorporation, training and platform integration.</li>
-              <li>Managed, negotiated and acquired international partners.</li>
-              <li class="tl-highlight">Grew activity <strong>+30%</strong> in year one, <strong>+50%</strong> in year two.</li>
+              <li data-i18n="exp.t3.li1">SaaS product specialist — acquisition, negotiation and monitoring of major international accounts.</li>
+              <li data-i18n="exp.t3.li2">Advised clients on defining their digital Marketplace strategy.</li>
+              <li data-i18n="exp.t3.li3">Owned onboarding: incorporation, training and platform integration.</li>
+              <li data-i18n="exp.t3.li4">Managed, negotiated and acquired international partners.</li>
+              <li class="tl-highlight" data-i18n-html="exp.t3.li5">Grew activity <strong>+30%</strong> in year one, <strong>+50%</strong> in year two.</li>
             </ul>
           </div>
         </article>
@@ -207,14 +219,14 @@
           <div class="tl-date">2015 — 2017</div>
           <div class="tl-content">
             <div class="tl-top">
-              <h3>Sales Manager, Catalonia</h3>
+              <h3 data-i18n="exp.salesManagerCatalonia">Sales Manager, Catalonia</h3>
               <span class="tl-company">Osteomed · Ixom — Barcelona, Spain</span>
             </div>
             <ul>
-              <li>Medical visits to public &amp; private hospitals and clinics — specialist in cranio-maxillofacial osteosynthesis, plastic &amp; reconstructive and ophthalmological surgery equipment, supporting doctors in the operating room.</li>
-              <li>Prepared and delivered training for resident and internal doctors.</li>
-              <li class="tl-highlight">Built a portfolio of 10 new public hospital clients — <strong>€300K</strong> annual turnover.</li>
-              <li class="tl-highlight">Grew 30–50 private dental clinic clients — <strong>€150K</strong> annual turnover.</li>
+              <li data-i18n="exp.t4.li1">Medical visits to public &amp; private hospitals and clinics — specialist in cranio-maxillofacial osteosynthesis, plastic &amp; reconstructive and ophthalmological surgery equipment, supporting doctors in the operating room.</li>
+              <li data-i18n="exp.t4.li2">Prepared and delivered training for resident and internal doctors.</li>
+              <li class="tl-highlight" data-i18n-html="exp.t4.li3">Built a portfolio of 10 new public hospital clients — <strong>€300K</strong> annual turnover.</li>
+              <li class="tl-highlight" data-i18n-html="exp.t4.li4">Grew 30–50 private dental clinic clients — <strong>€150K</strong> annual turnover.</li>
             </ul>
           </div>
         </article>
@@ -224,14 +236,14 @@
           <div class="tl-date">2013 — 2014</div>
           <div class="tl-content">
             <div class="tl-top">
-              <h3>Sales Manager, Catalonia</h3>
+              <h3 data-i18n="exp.salesManagerCatalonia">Sales Manager, Catalonia</h3>
               <span class="tl-company">Ortotrauma Implant · Barcelona, Spain</span>
             </div>
             <ul>
-              <li>Created, managed and developed major accounts.</li>
-              <li>Owned the management and growth of the customer portfolio.</li>
-              <li>Established commercial strategies.</li>
-              <li>Organized events and prepared training for doctors and residents.</li>
+              <li data-i18n="exp.t5.li1">Created, managed and developed major accounts.</li>
+              <li data-i18n="exp.t5.li2">Owned the management and growth of the customer portfolio.</li>
+              <li data-i18n="exp.t5.li3">Established commercial strategies.</li>
+              <li data-i18n="exp.t5.li4">Organized events and prepared training for doctors and residents.</li>
             </ul>
           </div>
         </article>
@@ -244,8 +256,8 @@
   <section id="projects" class="section projects">
     <div class="wrap">
       <div class="section-head">
-        <span class="tag reveal-up">03 / Projects</span>
-        <h2 class="reveal-up">Things I've <em>built</em></h2>
+        <span class="tag reveal-up" data-i18n="proj.tag">03 / Projects</span>
+        <h2 class="reveal-up" data-i18n-html="proj.heading">Things I've <em>built</em></h2>
       </div>
 
       <div class="proj-grid">
@@ -257,9 +269,9 @@
           <div class="proj-body">
             <div class="proj-head">
               <h3>Blumm</h3>
-              <span class="proj-type">Mobile app · iOS &amp; Android</span>
+              <span class="proj-type" data-i18n="proj.blumm.type">Mobile app · iOS &amp; Android</span>
             </div>
-            <p class="proj-desc">
+            <p class="proj-desc" data-i18n="proj.blumm.desc">
               A women's health app that brings cycle tracking, personalized nutrition
               (recipes &amp; auto-generated shopping lists) and gym &amp; workout planning
               into one place. I own it end-to-end — product, design and code — currently
@@ -267,14 +279,14 @@
             </p>
             <div class="proj-stack">
               <div class="proj-stack-group">
-                <span class="proj-stack-label">Built with</span>
+                <span class="proj-stack-label" data-i18n="proj.builtWith">Built with</span>
                 <ul class="pill-list pill-list--row">
                   <li>React Native</li><li>Expo &amp; EAS Build</li><li>TypeScript</li>
                   <li>Supabase</li><li>React Navigation</li><li>Apple HealthKit</li>
                 </ul>
               </div>
               <div class="proj-stack-group">
-                <span class="proj-stack-label">Tools I picked up shipping it</span>
+                <span class="proj-stack-label" data-i18n="proj.toolsPickedUp">Tools I picked up shipping it</span>
                 <ul class="pill-list pill-list--row">
                   <li>Sentry</li><li>PostHog</li><li>App Store Connect</li>
                   <li>Google Play Console</li><li>Figma</li><li>Git &amp; GitHub</li>
@@ -291,9 +303,9 @@
           <div class="proj-body">
             <div class="proj-head">
               <h3>Turbolemans</h3>
-              <span class="proj-type">Marketing website</span>
+              <span class="proj-type" data-i18n="proj.turbo.type">Marketing website</span>
             </div>
-            <p class="proj-desc">
+            <p class="proj-desc" data-i18n="proj.turbo.desc">
               Website for a turbocharger specialist workshop in Les Franqueses del
               Vallès, Barcelona — diagnostics, rebuild, repair and balancing services
               for every make.
@@ -314,9 +326,9 @@
           <div class="proj-body">
             <div class="proj-head">
               <h3>Dr Babak Vakili</h3>
-              <span class="proj-type">Website · Healthcare</span>
+              <span class="proj-type" data-i18n="proj.babak.type">Website · Healthcare</span>
             </div>
-            <p class="proj-desc">
+            <p class="proj-desc" data-i18n="proj.babak.desc">
               Website for an endodontics &amp; periodontology practice in Billère,
               near Pau — a dual entry for patients and referring dentists, in a
               contemporary black-and-white identity inspired by the practice's
@@ -324,7 +336,7 @@
             </p>
             <div class="proj-stack">
               <ul class="pill-list pill-list--row">
-                <li>HTML</li><li>CSS</li><li>JavaScript</li><li>Structured data (SEO)</li>
+                <li>HTML</li><li>CSS</li><li>JavaScript</li><li data-i18n="proj.structuredData">Structured data (SEO)</li>
               </ul>
             </div>
             <a class="proj-link" href="https://cabinet-vakili.fr/" target="_blank" rel="noopener">cabinet-vakili.fr ↗</a>
@@ -339,63 +351,63 @@
   <section id="expertise" class="section expertise">
     <div class="wrap">
       <div class="section-head">
-        <span class="tag reveal-up">04 / Expertise</span>
-        <h2 class="reveal-up">Tools &amp; strengths</h2>
+        <span class="tag reveal-up" data-i18n="skills.tag">04 / Expertise</span>
+        <h2 class="reveal-up" data-i18n="skills.heading">Tools &amp; strengths</h2>
       </div>
 
       <div class="expertise-grid">
         <div class="exp-col reveal-up">
-          <h3>Core skills</h3>
+          <h3 data-i18n="skills.core">Core skills</h3>
           <ul class="pill-list">
-            <li>Strategy Development</li>
-            <li>Management &amp; Communication</li>
-            <li>Problem-Solving</li>
-            <li>Workflows</li>
-            <li>Negotiation</li>
-            <li>Team Leadership &amp; Mentoring</li>
+            <li data-i18n="skills.strategy">Strategy Development</li>
+            <li data-i18n="skills.mgmt">Management &amp; Communication</li>
+            <li data-i18n="skills.problem">Problem-Solving</li>
+            <li data-i18n="skills.workflows">Workflows</li>
+            <li data-i18n="skills.negotiation">Negotiation</li>
+            <li data-i18n="skills.mentoring">Team Leadership &amp; Mentoring</li>
           </ul>
         </div>
         <div class="exp-col reveal-up">
-          <h3>Systems</h3>
+          <h3 data-i18n="skills.systems">Systems</h3>
           <ul class="pill-list">
             <li>ERP</li>
             <li>PIM</li>
             <li>CRM</li>
             <li>CMS</li>
-            <li>Ticketing software</li>
+            <li data-i18n="skills.ticketing">Ticketing software</li>
           </ul>
         </div>
         <div class="exp-col reveal-up">
-          <h3>Education</h3>
+          <h3 data-i18n="skills.education">Education</h3>
           <div class="edu-item">
             <span class="edu-year">2025—26</span>
             <div>
-              <p class="edu-title">Responsable de Projet Digital <span class="edu-level">— Bac +3</span></p>
+              <p class="edu-title" data-i18n-html="skills.edu1title">Responsable de Projet Digital <span class="edu-level">— Bac +3</span></p>
               <p class="edu-school">Studi</p>
             </div>
           </div>
           <div class="edu-item">
             <span class="edu-year">2022</span>
             <div>
-              <p class="edu-title">Negotiation &amp; Digitalization of Customer Relationships</p>
+              <p class="edu-title" data-i18n="skills.edu2title">Negotiation &amp; Digitalization of Customer Relationships</p>
               <p class="edu-school">VAE</p>
             </div>
           </div>
           <div class="edu-item">
             <span class="edu-year">2020</span>
             <div>
-              <p class="edu-title">International Trade</p>
+              <p class="edu-title" data-i18n="skills.edu3title">International Trade</p>
               <p class="edu-school">Enaco, Business School</p>
             </div>
           </div>
         </div>
         <div class="exp-col reveal-up">
-          <h3>Languages</h3>
+          <h3 data-i18n="skills.languages">Languages</h3>
           <div class="lang-list">
-            <div class="lang-item"><span>Spanish</span><div class="lang-bar"><i style="--w:100%"></i></div></div>
-            <div class="lang-item"><span>Catalan</span><div class="lang-bar"><i style="--w:100%"></i></div></div>
-            <div class="lang-item"><span>French</span><div class="lang-bar"><i style="--w:95%"></i></div></div>
-            <div class="lang-item"><span>English</span><div class="lang-bar"><i style="--w:90%"></i></div></div>
+            <div class="lang-item"><span data-i18n="lang.es">Spanish</span><div class="lang-bar"><i style="--w:100%"></i></div></div>
+            <div class="lang-item"><span data-i18n="lang.ca">Catalan</span><div class="lang-bar"><i style="--w:100%"></i></div></div>
+            <div class="lang-item"><span data-i18n="lang.fr">French</span><div class="lang-bar"><i style="--w:95%"></i></div></div>
+            <div class="lang-item"><span data-i18n="lang.en">English</span><div class="lang-bar"><i style="--w:90%"></i></div></div>
           </div>
         </div>
       </div>
@@ -406,22 +418,22 @@
   <section id="contact" class="section contact">
     <div class="wrap">
       <div class="contact-inner">
-        <span class="tag reveal-up">05 / Contact</span>
-        <h2 class="reveal-up">Let's build the<br>next chapter <em>together</em>.</h2>
-        <p class="reveal-up contact-sub">Based in Bordeaux, France — open to roles and partnerships across Europe.</p>
+        <span class="tag reveal-up" data-i18n="contact.tag">05 / Contact</span>
+        <h2 class="reveal-up" data-i18n-html="contact.heading">Let's build the<br>next chapter <em>together</em>.</h2>
+        <p class="reveal-up contact-sub" data-i18n="contact.sub">Based in Bordeaux, France — open to roles and partnerships across Europe.</p>
 
         <div class="contact-links reveal-up">
           <a href="mailto:marina.r.1348@gmail.com" class="contact-link">
-            <span class="cl-label">Email</span>
+            <span class="cl-label" data-i18n="contact.email">Email</span>
             <span class="cl-value">marina.r.1348@gmail.com</span>
           </a>
           <a href="tel:+330666150532" class="contact-link">
-            <span class="cl-label">Phone</span>
+            <span class="cl-label" data-i18n="contact.phone">Phone</span>
             <span class="cl-value">+33 06 66 15 05 32</span>
           </a>
           <div class="contact-link contact-link--static">
-            <span class="cl-label">Location</span>
-            <span class="cl-value">Bordeaux, France</span>
+            <span class="cl-label" data-i18n="contact.location">Location</span>
+            <span class="cl-value" data-i18n="contact.locationValue">Bordeaux, France</span>
           </div>
         </div>
       </div>
@@ -433,10 +445,11 @@
 <footer class="site-footer">
   <div class="wrap footer-inner">
     <span>© <span id="year"></span> Marina Ruiz Rodriguez</span>
-    <a href="#top">Back to top ↑</a>
+    <a href="#top" data-i18n="footer.top">Back to top ↑</a>
   </div>
 </footer>
 
+<script src="i18n.js"></script>
 <script src="script.js"></script>
 </body>
 </html>
