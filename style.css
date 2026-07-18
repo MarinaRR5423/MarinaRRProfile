@@ -281,6 +281,12 @@ em{ font-style: italic; color: var(--gold-bright); }
 }
 .proj-card--featured .proj-mark{ font-size: 4.4rem; }
 
+.proj-logo{
+  position: relative; width: 132px; height: 132px; object-fit: contain;
+  border-radius: 18px; background: var(--cream);
+  padding: 14px; box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
+
 .proj-body{ padding: 1.8rem 2rem; display: flex; flex-direction: column; gap: 1rem; flex: 1; }
 .proj-head{ display: flex; flex-direction: column; gap: 0.3rem; }
 .proj-head h3{ font-family: var(--serif); font-weight: 600; font-size: 1.5rem; color: var(--cream); }
