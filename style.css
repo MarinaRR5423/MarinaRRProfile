@@ -1,11 +1,11 @@
 /* ===== Marina Ruiz Rodriguez — Portfolio ===== */
 
 :root{
-  --navy-950: #070b14;
-  --navy-900: #0b1220;
-  --navy-800: #101a2e;
-  --navy-700: #172341;
-  --navy-600: #223259;
+  --navy-950: #0a1230;
+  --navy-900: #0f1c45;
+  --navy-800: #172a5e;
+  --navy-700: #223875;
+  --navy-600: #2d4690;
   --cream: #f4efe4;
   --cream-dim: #cfc9ba;
   --gold: #c9a45c;
@@ -245,6 +245,7 @@ em{ font-style: italic; color: var(--gold-bright); }
 .edu-item{ display: flex; gap: 1rem; margin-bottom: 1.4rem; }
 .edu-year{ font-family: var(--serif); font-style: italic; color: var(--gold); font-size: 0.95rem; flex-shrink: 0; }
 .edu-title{ font-size: 0.92rem; color: var(--cream); margin-bottom: 0.2rem; line-height: 1.4; }
+.edu-level{ color: var(--gold); font-size: 0.82rem; }
 .edu-school{ font-size: 0.8rem; color: var(--cream-dim); }
 
 .lang-list{ display: flex; flex-direction: column; gap: 1rem; }
