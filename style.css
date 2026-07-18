@@ -132,6 +132,24 @@ em{ font-style: italic; color: var(--gold-bright); }
   margin-bottom: 2.6rem;
 }
 
+.status-badge{
+  display: inline-flex; align-items: center; gap: 0.65rem;
+  border: 1px solid rgba(201,164,92,0.35); background: rgba(201,164,92,0.08);
+  border-radius: 100px; padding: 0.55rem 1.2rem 0.55rem 1rem;
+  font-size: 0.86rem; color: var(--cream); margin-bottom: 1.8rem;
+}
+.status-badge strong{ color: var(--gold-bright); font-weight: 700; }
+.status-dot{
+  width: 8px; height: 8px; border-radius: 50%; background: var(--gold-bright);
+  box-shadow: 0 0 0 0 rgba(227,192,125,0.6); animation: pulseDot 2.2s ease-out infinite;
+  flex-shrink: 0;
+}
+@keyframes pulseDot{
+  0%{ box-shadow: 0 0 0 0 rgba(227,192,125,0.55); }
+  70%{ box-shadow: 0 0 0 8px rgba(227,192,125,0); }
+  100%{ box-shadow: 0 0 0 0 rgba(227,192,125,0); }
+}
+
 .hero-actions{ display: flex; gap: 1rem; flex-wrap: wrap; }
 .btn{
   padding: 15px 30px; border-radius: 100px; font-size: 0.88rem;
@@ -229,6 +247,63 @@ em{ font-style: italic; color: var(--gold-bright); }
 .tl-highlight{ color: var(--cream) !important; }
 .tl-highlight strong{ color: var(--gold-bright); font-weight: 700; }
 
+/* ===== Projects ===== */
+.projects{ background: var(--navy-900); }
+.section-head h2 em{ font-style: italic; }
+
+.proj-grid{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.8rem; }
+
+.proj-card{
+  border: 1px solid var(--line); border-radius: 22px; overflow: hidden;
+  background: var(--navy-800); display: flex; flex-direction: column;
+  transition: border-color .3s var(--ease), transform .3s var(--ease);
+}
+.proj-card:hover{ border-color: rgba(201,164,92,0.4); transform: translateY(-4px); }
+
+.proj-card--featured{ grid-column: 1 / -1; flex-direction: row; }
+
+.proj-visual{
+  position: relative; display: flex; align-items: center; justify-content: center;
+  overflow: hidden; background: linear-gradient(155deg, var(--navy-700), var(--navy-900));
+  height: 180px; flex-shrink: 0;
+}
+.proj-card--featured .proj-visual{ width: 280px; height: auto; }
+.proj-visual::before{
+  content: ""; position: absolute; inset: -40%;
+  background: radial-gradient(circle at 30% 30%, rgba(201,164,92,0.35), transparent 60%);
+}
+.proj-visual--turbo{ background: linear-gradient(155deg, #2a2f3d, var(--navy-900)); }
+.proj-visual--babak{ background: linear-gradient(155deg, #232323, var(--navy-900)); }
+.proj-mark{
+  position: relative; font-family: var(--serif); font-style: italic; font-weight: 600;
+  font-size: 3.2rem; color: var(--cream); opacity: 0.9; letter-spacing: -0.02em;
+}
+.proj-card--featured .proj-mark{ font-size: 4.4rem; }
+
+.proj-body{ padding: 1.8rem 2rem; display: flex; flex-direction: column; gap: 1rem; flex: 1; }
+.proj-head{ display: flex; flex-direction: column; gap: 0.3rem; }
+.proj-head h3{ font-family: var(--serif); font-weight: 600; font-size: 1.5rem; color: var(--cream); }
+.proj-type{ font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold); }
+.proj-desc{ color: var(--cream-dim); font-size: 0.94rem; line-height: 1.7; }
+
+.proj-stack{ display: flex; flex-direction: column; gap: 1rem; }
+.proj-stack-group{ display: flex; flex-direction: column; gap: 0.5rem; }
+.proj-stack-label{ font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--cream-dim); }
+
+.pill-list--row{ flex-direction: row; flex-wrap: wrap; gap: 0.5rem; }
+.pill-list--row li{
+  padding: 0.35rem 0.85rem; border: 1px solid var(--line); border-radius: 100px;
+  font-size: 0.8rem; color: var(--cream);
+}
+.pill-list--row li::before{ content: none; }
+
+.proj-link{
+  align-self: flex-start; font-size: 0.86rem; color: var(--gold-bright);
+  border-bottom: 1px solid rgba(227,192,125,0.4); padding-bottom: 2px;
+  transition: border-color .25s var(--ease);
+}
+.proj-link:hover{ border-color: var(--gold-bright); }
+
 /* ===== Expertise ===== */
 .expertise{ background: var(--navy-950); }
 .expertise-grid{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 3rem; }
@@ -313,6 +388,9 @@ em{ font-style: italic; color: var(--gold-bright); }
   .tl-item{ grid-template-columns: 14px 1fr; gap: 1.2rem; }
   .tl-date{ grid-column: 1 / -1; padding-top: 0; margin-bottom: 0.6rem; }
   .tl-marker{ padding-top: 0.35rem; }
+  .proj-grid{ grid-template-columns: 1fr; }
+  .proj-card--featured{ flex-direction: column; }
+  .proj-card--featured .proj-visual{ width: 100%; height: 160px; }
 }
 
 @media (max-width: 720px){
