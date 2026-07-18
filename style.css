@@ -108,8 +108,8 @@ em{ font-style: italic; color: var(--gold-bright); }
   line-height: 1.02;
   letter-spacing: -0.01em;
   display: flex; flex-direction: column; align-items: flex-start;
-  padding-bottom: 0.12em;
-  margin-bottom: 1.6rem;
+  padding-bottom: 0.24em;
+  margin-bottom: 2.4rem;
 }
 .hero-title span{ display: block; }
 .hero-title .outline{
@@ -282,9 +282,9 @@ em{ font-style: italic; color: var(--gold-bright); }
 .proj-card--featured .proj-mark{ font-size: 4.4rem; }
 
 .proj-logo{
-  position: relative; width: 132px; height: 132px; object-fit: contain;
-  border-radius: 18px; background: var(--cream);
-  padding: 14px; box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+  position: relative; width: 100px; height: 100px; object-fit: contain;
+  border-radius: 16px; background: var(--cream);
+  padding: 12px; box-shadow: 0 12px 30px rgba(0,0,0,0.35);
 }
 
 .proj-body{ padding: 1.8rem 2rem; display: flex; flex-direction: column; gap: 1rem; flex: 1; }
