@@ -51,7 +51,7 @@ em{ font-style: italic; color: var(--gold-bright); }
 /* ===== Header ===== */
 .site-header{
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  background: linear-gradient(to bottom, rgba(7,11,20,0.92), rgba(7,11,20,0));
+  background: linear-gradient(to bottom, rgba(10,18,48,0.92), rgba(10,18,48,0));
   backdrop-filter: blur(6px);
   padding-block: 22px;
   transition: padding .3s var(--ease);
