@@ -299,6 +299,13 @@ em{ font-style: italic; color: var(--gold-bright); }
   border-radius: 16px; background: var(--cream);
   padding: 12px; box-shadow: 0 12px 30px rgba(0,0,0,0.35);
 }
+.proj-logo--wide{
+  width: 220px; height: 120px;
+}
+.proj-logo--plain{
+  width: 100px; height: 100px; background: none; padding: 0;
+  box-shadow: 0 12px 30px rgba(0,0,0,0.45); border-radius: 14px;
+}
 
 .proj-body{ padding: 1.8rem 2rem; display: flex; flex-direction: column; gap: 1rem; flex: 1; }
 .proj-head{ display: flex; flex-direction: column; gap: 0.3rem; }
