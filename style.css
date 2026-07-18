@@ -232,23 +232,25 @@ em{ font-style: italic; color: var(--gold-bright); }
 .experience{ background: var(--navy-900); }
 .timeline{ position: relative; }
 .timeline::before{
-  content: ""; position: absolute; left: 178px; top: 10px; bottom: 10px; width: 1px;
+  content: ""; position: absolute; left: 198px; top: 10px; bottom: 10px; width: 1px;
   background: var(--line);
 }
 .tl-item{
   display: grid; grid-template-columns: 178px 40px 1fr; gap: 0;
+  grid-template-areas: "date marker content";
   padding-block: 2.6rem; border-bottom: 1px solid var(--line);
 }
 .tl-item:first-child{ padding-top: 0; }
 .tl-date{
+  grid-area: date;
   font-family: var(--serif); font-style: italic; color: var(--gold); font-size: 1.05rem; padding-top: 0.2rem;
 }
-.tl-marker{ display: flex; justify-content: center; padding-top: 0.4rem; position: relative; }
+.tl-marker{ grid-area: marker; display: flex; justify-content: center; padding-top: 0.4rem; position: relative; }
 .tl-dot{
   width: 11px; height: 11px; border-radius: 50%; background: var(--navy-900);
   border: 2px solid var(--gold); position: relative; z-index: 2;
 }
-.tl-content{ max-width: 700px; }
+.tl-content{ grid-area: content; max-width: 700px; }
 .tl-top{ display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 1.1rem; }
 .tl-top h3{ font-family: var(--serif); font-weight: 500; font-size: 1.5rem; color: var(--cream); }
 .tl-company{ font-size: 0.85rem; color: var(--gold); letter-spacing: 0.02em; }
@@ -412,9 +414,13 @@ em{ font-style: italic; color: var(--gold-bright); }
 @media (max-width: 980px){
   .about-grid{ grid-template-columns: 1fr; gap: 2rem; }
   .expertise-grid{ grid-template-columns: repeat(2, 1fr); gap: 2.4rem; }
-  .timeline::before{ left: 6px; }
-  .tl-item{ grid-template-columns: 14px 1fr; gap: 1.2rem; }
-  .tl-date{ grid-column: 1 / -1; padding-top: 0; margin-bottom: 0.6rem; }
+  .timeline::before{ left: 7px; }
+  .tl-item{
+    grid-template-columns: 14px 1fr;
+    grid-template-areas: "date date" "marker content";
+    row-gap: 1rem; column-gap: 1.2rem;
+  }
+  .tl-date{ padding-top: 0; margin-bottom: 0; }
   .tl-marker{ padding-top: 0.35rem; }
   .proj-grid{ grid-template-columns: 1fr; }
   .proj-card--featured{ flex-direction: column; }
