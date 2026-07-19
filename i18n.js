@@ -11,7 +11,7 @@ const translations = {
     "nav.sayHello": "Say hello →",
 
     "hero.eyebrow": "Bordeaux, France",
-    "hero.role": "Sales Leader <em>→</em> Product Manager",
+    "hero.role": "Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>Actively looking for a <strong>Product Manager</strong> / <strong>Product Owner</strong> role",
     "hero.desc": "Proactive and ambitious leader with a decade in international B2B SaaS growth — now retraining and building hands-on toward Product. Over the past year I've designed, built and shipped a live mobile app solo, and earned a Product Management diploma alongside it. I bring commercial instinct, user empathy and a bias for shipping.",
     "hero.ctaProjects": "View projects",
@@ -25,8 +25,8 @@ const translations = {
 
     "about.tag": "01 / About",
     "about.heading": "A decade of building<br>revenue &amp; relationships.",
-    "about.p1": "I'm a proactive and ambitious sales leader with a strong passion for team building and problem-solving — always learning, always ready for the next challenge. Over the past ten years I've moved from field sales in surgical equipment to leading Sales, Onboarding & Partnership at an international SaaS marketplace platform.",
-    "about.p2": "I care about the systems behind the numbers: process, mentoring, and honest reporting — the infrastructure that lets a sales team scale without losing its edge.",
+    "about.p1": "I'm a proactive, product-minded leader with a decade spent at the intersection of sales, customers and product at an international SaaS marketplace — first building relationships in the field, then running Sales, Onboarding & Partnership at BeezUP, where a growing part of my job was translating market and customer needs into the product roadmap.",
+    "about.p2": "That's the part I wanted to own directly, so I went and built Blumm myself: user research, UX, code and the operational stack around it — Supabase, Sentry, PostHog — backed by a Product Management diploma. I care about the same things now as I did in Sales: the systems behind the outcome — process, evidence and honest reporting — the infrastructure that lets a product scale without losing its edge.",
     "about.stat1": "Years in international sales",
     "about.stat2": "Growth delivered, year two at BeezUP",
     "about.stat3": "Spanish · Catalan · French · English",
@@ -124,7 +124,7 @@ const translations = {
     "nav.sayHello": "Me contacter →",
 
     "hero.eyebrow": "Bordeaux, France",
-    "hero.role": "Directrice commerciale <em>→</em> Chef de produit",
+    "hero.role": "Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>À la recherche active d'un poste de <strong>Product Manager</strong> / <strong>Product Owner</strong>",
     "hero.desc": "Dirigeante proactive et ambitieuse, avec dix ans de croissance commerciale B2B à l'international — aujourd'hui en reconversion et en construction concrète vers le Produit. Au cours de l'année écoulée, j'ai conçu, développé et lancé seule une application mobile, tout en obtenant un diplôme en gestion de produit. J'apporte un sens commercial, de l'empathie utilisateur et un vrai goût pour livrer.",
     "hero.ctaProjects": "Voir les projets",
@@ -138,8 +138,8 @@ const translations = {
 
     "about.tag": "01 / À propos",
     "about.heading": "Dix ans à construire<br>chiffre d'affaires &amp; relations.",
-    "about.p1": "Je suis une dirigeante commerciale proactive et ambitieuse, passionnée par le management d'équipe et la résolution de problèmes — toujours en train d'apprendre, toujours prête pour le prochain défi. Ces dix dernières années, je suis passée de la vente terrain d'équipement chirurgical à la direction des Ventes, de l'Onboarding et des Partenariats au sein d'une plateforme SaaS internationale.",
-    "about.p2": "Je m'intéresse aux systèmes derrière les chiffres : les process, le mentorat et un reporting honnête — l'infrastructure qui permet à une équipe commerciale de grandir sans perdre en exigence.",
+    "about.p1": "Je suis une dirigeante proactive, orientée produit, avec dix ans passés à la croisée des ventes, des clients et du produit au sein d'une marketplace SaaS internationale — d'abord sur le terrain à construire des relations, puis à la tête des Ventes, de l'Onboarding et des Partenariats chez BeezUP, où une part croissante de mon rôle consistait à traduire les besoins du marché et des clients en feuille de route produit.",
+    "about.p2": "C'est cette partie-là que j'ai voulu porter moi-même, alors j'ai construit Blumm : recherche utilisateur, UX, code et toute la stack opérationnelle autour — Supabase, Sentry, PostHog — complétés par un diplôme en gestion de produit. Je m'intéresse aux mêmes choses qu'en vente : les systèmes derrière le résultat — process, preuves et reporting honnête — l'infrastructure qui permet à un produit de grandir sans perdre en exigence.",
     "about.stat1": "Ans dans la vente à l'international",
     "about.stat2": "De croissance générée, deuxième année chez BeezUP",
     "about.stat3": "Espagnol · Catalan · Français · Anglais",
@@ -237,7 +237,7 @@ const translations = {
     "nav.sayHello": "Escríbeme →",
 
     "hero.eyebrow": "Burdeos, Francia",
-    "hero.role": "Líder de ventas <em>→</em> Product Manager",
+    "hero.role": "Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>En búsqueda activa de un puesto de <strong>Product Manager</strong> / <strong>Product Owner</strong>",
     "hero.desc": "Líder proactiva y ambiciosa, con una década liderando el crecimiento comercial B2B a nivel internacional — ahora en plena reconversión, construyendo de forma práctica hacia el Producto. Durante el último año he diseñado, construido y lanzado en solitario una app móvil, además de obtener un diploma en gestión de producto. Aporto instinto comercial, empatía con la usuaria y una fuerte orientación a lanzar cosas reales.",
     "hero.ctaProjects": "Ver proyectos",
@@ -251,8 +251,8 @@ const translations = {
 
     "about.tag": "01 / Sobre mí",
     "about.heading": "Una década construyendo<br>ingresos &amp; relaciones.",
-    "about.p1": "Soy una líder comercial proactiva y ambiciosa, con verdadera pasión por liderar equipos y resolver problemas — siempre aprendiendo, siempre lista para el siguiente reto. En los últimos diez años he pasado de la venta de campo en equipamiento quirúrgico a liderar Ventas, Onboarding y Partnerships en una plataforma SaaS internacional.",
-    "about.p2": "Me importan los sistemas detrás de las cifras: procesos, mentoring y un reporting honesto — la infraestructura que permite a un equipo comercial crecer sin perder su nivel.",
+    "about.p1": "Soy una líder proactiva y orientada a producto, con una década en la intersección entre ventas, clientes y producto dentro de una marketplace SaaS internacional — primero construyendo relaciones sobre el terreno, después liderando Ventas, Onboarding y Partnerships en BeezUP, donde una parte cada vez mayor de mi trabajo consistía en traducir las necesidades del mercado y de los clientes en la hoja de ruta de producto.",
+    "about.p2": "Esa es la parte que quise asumir yo misma, así que construí Blumm: investigación de usuarias, UX, código y todo el stack operativo alrededor — Supabase, Sentry, PostHog — respaldado por un diploma en gestión de producto. Me importan las mismas cosas que en Ventas: los sistemas detrás del resultado — proceso, evidencia y un reporting honesto — la infraestructura que permite a un producto crecer sin perder su nivel.",
     "about.stat1": "Años en ventas internacionales",
     "about.stat2": "De crecimiento logrado, segundo año en BeezUP",
     "about.stat3": "Español · Catalán · Francés · Inglés",
