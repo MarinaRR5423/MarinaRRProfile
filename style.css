@@ -51,10 +51,18 @@ em{ font-style: italic; color: var(--gold-bright); }
 /* ===== Header ===== */
 .site-header{
   position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-  background: linear-gradient(to bottom, rgba(10,18,48,0.92), rgba(10,18,48,0));
-  backdrop-filter: blur(6px);
   padding-block: 22px;
   transition: padding .3s var(--ease);
+}
+/* Blur lives on a pseudo-element (not the header itself) so it doesn't
+   create a new containing block for position:fixed descendants like
+   the mobile nav panel — a backdrop-filter ancestor would otherwise
+   confine "fixed" children to the header's own small box. */
+.site-header::before{
+  content: ""; position: absolute; inset: 0; z-index: -1;
+  background: linear-gradient(to bottom, rgba(10,18,48,0.92), rgba(10,18,48,0));
+  backdrop-filter: blur(6px);
+  pointer-events: none;
 }
 .header-inner{
   display: flex; align-items: center; justify-content: space-between;
