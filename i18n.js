@@ -126,7 +126,7 @@ const translations = {
     "hero.eyebrow": "Bordeaux, France",
     "hero.role": "Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>À la recherche active d'un poste de <strong>Product Manager</strong> / <strong>Product Owner</strong>",
-    "hero.desc": "Dirigeante proactive et ambitieuse, avec dix ans de croissance commerciale B2B à l'international — aujourd'hui en reconversion et en construction concrète vers le Produit. Au cours de l'année écoulée, j'ai conçu, développé et lancé seule une application mobile, tout en obtenant un diplôme en gestion de produit. J'apporte un sens commercial, de l'empathie utilisateur et un vrai goût pour livrer.",
+    "hero.desc": "Après dix ans à porter la croissance commerciale B2B à l'international, je me reconvertis aujourd'hui vers le Produit, très concrètement : cette dernière année, j'ai conçu, développé et lancé seule une application mobile, tout en obtenant un diplôme en gestion de produit. Je porte ce même sens commercial, cette empathie utilisateur et ce goût du résultat dans tout ce que je construis.",
     "hero.ctaProjects": "Voir les projets",
     "hero.ctaContact": "Me contacter",
     "hero.scroll": "Défiler",
