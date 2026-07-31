@@ -313,6 +313,10 @@ em{ font-style: italic; color: var(--gold-bright); }
 .proj-logo--wide{
   width: 220px; height: 120px;
 }
+.proj-visual--blumm .proj-logo{
+  background: none; padding: 0; box-shadow: none; border-radius: 0;
+  width: 240px; height: auto; aspect-ratio: 736 / 200;
+}
 .proj-logo--plain{
   width: 100px; height: 100px; background: none; padding: 0;
   box-shadow: 0 12px 30px rgba(0,0,0,0.45); border-radius: 14px;
