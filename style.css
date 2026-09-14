@@ -1,11 +1,11 @@
 /* ===== Marina Ruiz Rodriguez — Portfolio ===== */
 
 :root{
-  --navy-950: #0a1230;
-  --navy-900: #0f1c45;
-  --navy-800: #172a5e;
-  --navy-700: #223875;
-  --navy-600: #2d4690;
+  --navy-950: #14224e;
+  --navy-900: #1c2c60;
+  --navy-800: #263a76;
+  --navy-700: #32498c;
+  --navy-600: #3f59a3;
   --cream: #f4efe4;
   --cream-dim: #cfc9ba;
   --gold: #c9a45c;
@@ -60,7 +60,7 @@ em{ font-style: italic; color: var(--gold-bright); }
    confine "fixed" children to the header's own small box. */
 .site-header::before{
   content: ""; position: absolute; inset: 0; z-index: -1;
-  background: linear-gradient(to bottom, rgba(10,18,48,0.92), rgba(10,18,48,0));
+  background: linear-gradient(to bottom, rgba(20,34,78,0.92), rgba(20,34,78,0));
   backdrop-filter: blur(6px);
   pointer-events: none;
 }
