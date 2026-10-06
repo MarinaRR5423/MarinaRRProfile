@@ -349,10 +349,14 @@ em{ font-style: italic; color: var(--gold-bright); }
 /* ===== Expertise ===== */
 .expertise{ background: var(--navy-950); }
 .expertise-grid{ display: grid; grid-template-columns: repeat(4, 1fr); gap: 3rem; }
-.exp-col h3{
+.exp-col h3, .vol-heading{
   font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 1.15rem;
   color: var(--gold-bright); margin-bottom: 1.4rem; padding-bottom: 0.9rem; border-bottom: 1px solid var(--line);
 }
+.volunteer{ margin-top: 4.5rem; }
+.vol-grid{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.4rem 3rem; }
+.vol-grid .edu-title{ font-size: 0.96rem; line-height: 1.5; }
+@media (max-width: 720px){ .vol-grid{ grid-template-columns: 1fr; } }
 .pill-list{ display: flex; flex-direction: column; gap: 0.75rem; }
 .pill-list li{
   font-size: 0.92rem; color: var(--cream-dim); padding-left: 1rem; position: relative;
