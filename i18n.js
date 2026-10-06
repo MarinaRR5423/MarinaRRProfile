@@ -101,6 +101,8 @@ const translations = {
     "skills.edu1title": "Responsable de Projet Digital <span class=\"edu-level\">— Bac +3</span>",
     "skills.edu2title": "Negotiation & Digitalization of Customer Relationships",
     "skills.edu3title": "International Trade",
+    "skills.edu4title": "Take on the role of Manager",
+    "skills.edu5title": "Cooperation within a group training",
     "skills.languages": "Languages",
 
     "lang.es": "Spanish",
@@ -221,6 +223,8 @@ const translations = {
     "skills.edu1title": "Responsable de Projet Digital <span class=\"edu-level\">— Bac +3</span>",
     "skills.edu2title": "Négociation & Digitalisation de la Relation Client",
     "skills.edu3title": "Commerce International",
+    "skills.edu4title": "Prise de poste de manager",
+    "skills.edu5title": "Formation à la coopération en groupe",
     "skills.languages": "Langues",
 
     "lang.es": "Espagnol",
@@ -341,6 +345,8 @@ const translations = {
     "skills.edu1title": "Responsable de Projet Digital <span class=\"edu-level\">— Bac +3</span>",
     "skills.edu2title": "Negociación & Digitalización de la Relación con el Cliente",
     "skills.edu3title": "Comercio Internacional",
+    "skills.edu4title": "Asumir el rol de manager",
+    "skills.edu5title": "Formación en cooperación dentro de un grupo",
     "skills.languages": "Idiomas",
 
     "lang.es": "Español",
