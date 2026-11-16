@@ -13,7 +13,7 @@ const translations = {
     "hero.eyebrow": "Bordeaux, France",
     "hero.role": "Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>Actively looking for a <strong>Product Manager</strong> / <strong>Product Owner</strong> role",
-    "hero.desc": "Proactive and ambitious leader with a decade in international B2B SaaS growth — now retraining and building hands-on toward Product. Over the past year I've designed, built and shipped a live mobile app solo, and earned a Product Management diploma alongside it. I bring commercial instinct, user empathy and a bias for shipping.",
+    "hero.desc": "Proactive and ambitious leader with a decade in international B2B SaaS growth — now working in Product and building hands-on. Over the past year I've designed, built and shipped a live mobile app solo, and earned a Product Management diploma alongside it. I bring commercial instinct, user empathy and a bias for shipping.",
     "hero.ctaProjects": "View projects",
     "hero.ctaContact": "Get in touch",
     "hero.scroll": "Scroll",
@@ -37,7 +37,7 @@ const translations = {
     "exp.remote": "Remote",
 
     "exp.t1.title": "Full-time Product Management Training",
-    "exp.t1.li1": "Left BeezUP at the end of December 2025 to focus full-time on the transition into Product.",
+    "exp.t1.li1": "Left BeezUP at the end of December 2025 to focus full-time on Product Management.",
     "exp.t1.li2": "Completed the Bac+3 <em>Responsable de Projet Digital</em> program — scoping, buyer personas &amp; UX (Figma), agile delivery, digital &amp; e-commerce strategy, performance and compliance monitoring.",
     "exp.blumm.title": "Founder & Product Manager",
     "exp.blumm.location": "Bordeaux, France",
@@ -128,7 +128,7 @@ const translations = {
 
     "footer.top": "Back to top ↑",
 
-    "meta.title": "Marina Ruiz Rodriguez — Sales Leader → Product Manager",
+    "meta.title": "Marina Ruiz Rodriguez — Product Manager",
     "meta.description": "Marina Ruiz Rodriguez — a decade leading international SaaS sales, now building products end-to-end and looking for a Product Manager / Product Owner role. Based in Bordeaux, France."
   },
 
@@ -143,7 +143,7 @@ const translations = {
     "hero.eyebrow": "Bordeaux, France",
     "hero.role": "Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>À la recherche active d'un poste de <strong>Product Manager</strong> / <strong>Product Owner</strong>",
-    "hero.desc": "Après dix ans à porter la croissance commerciale B2B à l'international, je me reconvertis aujourd'hui vers le Produit, très concrètement : cette dernière année, j'ai conçu, développé et lancé seule une application mobile, tout en obtenant un diplôme en gestion de produit. Je porte ce même sens commercial, cette empathie utilisateur et ce goût du résultat dans tout ce que je construis.",
+    "hero.desc": "Après dix ans à porter la croissance commerciale B2B à l'international, je travaille aujourd'hui dans le Produit, très concrètement : cette dernière année, j'ai conçu, développé et lancé seule une application mobile, tout en obtenant un diplôme en gestion de produit. Je porte ce même sens commercial, cette empathie utilisateur et ce goût du résultat dans tout ce que je construis.",
     "hero.ctaProjects": "Voir les projets",
     "hero.ctaContact": "Me contacter",
     "hero.scroll": "Défiler",
@@ -167,7 +167,7 @@ const translations = {
     "exp.remote": "À distance",
 
     "exp.t1.title": "Formation à temps plein en gestion de produit",
-    "exp.t1.li1": "Quitté BeezUP fin décembre 2025 pour me consacrer pleinement à ma reconversion vers le Produit.",
+    "exp.t1.li1": "Quitté BeezUP fin décembre 2025 pour me consacrer pleinement à la gestion de produit.",
     "exp.t1.li2": "Obtenu le diplôme Bac+3 <em>Responsable de Projet Digital</em> — cadrage de projet, personas &amp; UX (Figma), méthode agile, stratégie digitale &amp; e-commerce, pilotage de la performance et de la conformité.",
     "exp.blumm.title": "Fondatrice & Product Manager",
     "exp.blumm.location": "Bordeaux, France",
@@ -258,7 +258,7 @@ const translations = {
 
     "footer.top": "Retour en haut ↑",
 
-    "meta.title": "Marina Ruiz Rodriguez — Commerciale devenue Chef de Produit",
+    "meta.title": "Marina Ruiz Rodriguez — Product Manager",
     "meta.description": "Marina Ruiz Rodriguez — dix ans à la tête de ventes SaaS à l'international, aujourd'hui en train de construire des produits de bout en bout et à la recherche d'un poste de Product Manager / Product Owner. Basée à Bordeaux, France."
   },
 
@@ -273,7 +273,7 @@ const translations = {
     "hero.eyebrow": "Burdeos, Francia",
     "hero.role": "Product Manager",
     "hero.badge": "<span class=\"status-dot\"></span>En búsqueda activa de un puesto de <strong>Product Manager</strong> / <strong>Product Owner</strong>",
-    "hero.desc": "Líder proactiva y ambiciosa, con una década liderando el crecimiento comercial B2B a nivel internacional — ahora en plena reconversión, construyendo de forma práctica hacia el Producto. Durante el último año he diseñado, construido y lanzado en solitario una app móvil, además de obtener un diploma en gestión de producto. Aporto instinto comercial, empatía con la usuaria y una fuerte orientación a lanzar cosas reales.",
+    "hero.desc": "Líder proactiva y ambiciosa, con una década liderando el crecimiento comercial B2B a nivel internacional — ahora en el mundo del Producto, construyendo de forma práctica. Durante el último año he diseñado, construido y lanzado en solitario una app móvil, además de obtener un diploma en gestión de producto. Aporto instinto comercial, empatía con la usuaria y una fuerte orientación a lanzar cosas reales.",
     "hero.ctaProjects": "Ver proyectos",
     "hero.ctaContact": "Contactar",
     "hero.scroll": "Desliza",
@@ -297,7 +297,7 @@ const translations = {
     "exp.remote": "En remoto",
 
     "exp.t1.title": "Formación a tiempo completo en gestión de producto",
-    "exp.t1.li1": "Dejé BeezUP a finales de diciembre de 2025 para centrarme por completo en mi transición hacia Producto.",
+    "exp.t1.li1": "Dejé BeezUP a finales de diciembre de 2025 para centrarme por completo en la gestión de producto.",
     "exp.t1.li2": "Completé el programa Bac+3 <em>Responsable de Projet Digital</em> — definición de proyecto, buyer personas &amp; UX (Figma), metodología ágil, estrategia digital &amp; e-commerce, y seguimiento de rendimiento y cumplimiento.",
     "exp.blumm.title": "Fundadora & Product Manager",
     "exp.blumm.location": "Burdeos, Francia",
@@ -388,7 +388,7 @@ const translations = {
 
     "footer.top": "Volver arriba ↑",
 
-    "meta.title": "Marina Ruiz Rodriguez — De Ventas a Product Manager",
+    "meta.title": "Marina Ruiz Rodriguez — Product Manager",
     "meta.description": "Marina Ruiz Rodriguez — una década liderando ventas SaaS internacionales, ahora construyendo productos de principio a fin y en búsqueda de un puesto de Product Manager / Product Owner. Con base en Burdeos, Francia."
   }
 };
