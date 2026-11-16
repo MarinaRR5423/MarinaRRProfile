@@ -276,7 +276,7 @@ em{ font-style: italic; color: var(--gold-bright); }
 .projects{ background: var(--navy-900); }
 .section-head h2 em{ font-style: italic; }
 
-.proj-grid{ display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.8rem; }
+.proj-grid{ display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.8rem; }
 
 .proj-card{
   border: 1px solid var(--line); border-radius: 22px; overflow: hidden;
@@ -299,6 +299,7 @@ em{ font-style: italic; color: var(--gold-bright); }
 }
 .proj-visual--turbo{ background: linear-gradient(155deg, #2a2f3d, var(--navy-900)); }
 .proj-visual--babak{ background: linear-gradient(155deg, #232323, var(--navy-900)); }
+.proj-visual--zaballos{ background: linear-gradient(155deg, #1f3a8a, var(--navy-900)); }
 .proj-mark{
   position: relative; font-family: var(--serif); font-style: italic; font-weight: 600;
   font-size: 3.2rem; color: var(--cream); opacity: 0.9; letter-spacing: -0.02em;
@@ -317,6 +318,10 @@ em{ font-style: italic; color: var(--gold-bright); }
   background: none; padding: 0; box-shadow: none; border-radius: 0;
   width: 240px; height: auto; aspect-ratio: 736 / 200;
 }
+.proj-logo--round{
+  width: 110px; height: 110px; padding: 0; border-radius: 50%;
+  background: #fff; box-shadow: 0 12px 30px rgba(0,0,0,0.35);
+}
 .proj-logo--plain{
   width: 100px; height: 100px; background: none; padding: 0;
   box-shadow: 0 12px 30px rgba(0,0,0,0.45); border-radius: 14px;
@@ -332,12 +337,13 @@ em{ font-style: italic; color: var(--gold-bright); }
 .proj-stack-group{ display: flex; flex-direction: column; gap: 0.5rem; }
 .proj-stack-label{ font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--cream-dim); }
 
-.pill-list--row{ flex-direction: row; flex-wrap: wrap; gap: 0.5rem; }
-.pill-list--row li{
+/* doubled class so these win over the generic .pill-list rules defined further down */
+.pill-list.pill-list--row{ flex-direction: row; flex-wrap: wrap; gap: 0.5rem; }
+.pill-list.pill-list--row li{
   padding: 0.35rem 0.85rem; border: 1px solid var(--line); border-radius: 100px;
   font-size: 0.8rem; color: var(--cream);
 }
-.pill-list--row li::before{ content: none; }
+.pill-list.pill-list--row li::before{ content: none; }
 
 .proj-link{
   align-self: flex-start; font-size: 0.86rem; color: var(--gold-bright);

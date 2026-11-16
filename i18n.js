@@ -84,6 +84,8 @@ const translations = {
     "proj.turbo.desc": "Website for a turbocharger specialist workshop in Les Franqueses del Vallès, Barcelona — diagnostics, rebuild, repair and balancing services for every make.",
     "proj.babak.type": "Website · Healthcare",
     "proj.babak.desc": "Website for an endodontics & periodontology practice in Billère, near Pau — a dual entry for patients and referring dentists, in a contemporary black-and-white identity inspired by the practice's architecture, with an SEO foundation built in from the start.",
+    "proj.zaballos.type": "Website · Healthcare",
+    "proj.zaballos.desc": "Website for an endodontist in Bordeaux — a clear presentation of the specialty and the operating microscope, with a dual entry for patients and referring dentists, in a refined blue-and-ivory identity, with structured data and local SEO built in from the start.",
     "proj.structuredData": "Structured data (SEO)",
 
     "skills.tag": "04 / Expertise",
@@ -211,6 +213,8 @@ const translations = {
     "proj.turbo.desc": "Site web pour un atelier spécialiste des turbocompresseurs aux Franqueses del Vallès, Barcelone — diagnostic, reconstruction, réparation et équilibrage pour toutes les marques.",
     "proj.babak.type": "Site web · Santé",
     "proj.babak.desc": "Site conçu pour un cabinet d'endodontie & de parodontologie à Billère, près de Pau — une double entrée pour les patients et les dentistes correspondants, dans une identité contemporaine en noir et blanc inspirée de l'architecture du cabinet, avec une base SEO intégrée dès le départ.",
+    "proj.zaballos.type": "Site web · Santé",
+    "proj.zaballos.desc": "Site conçu pour une endodontiste à Bordeaux — une présentation claire de la spécialité et du microscope opératoire, avec une double entrée pour les patients et les confrères, dans une identité raffinée bleu et ivoire, avec données structurées et SEO local intégrés dès le départ.",
     "proj.structuredData": "Données structurées (SEO)",
 
     "skills.tag": "04 / Expertise",
@@ -338,6 +342,8 @@ const translations = {
     "proj.turbo.desc": "Sitio web para un taller especialista en turbocompresores en Les Franqueses del Vallès, Barcelona — diagnóstico, reconstrucción, reparación y equilibrado para todas las marcas.",
     "proj.babak.type": "Sitio web · Sanidad",
     "proj.babak.desc": "Diseño de sitio web para una consulta de endodoncia y periodoncia en Billère, cerca de Pau — con doble entrada para pacientes y dentistas derivadores, en una identidad contemporánea en blanco y negro inspirada en la arquitectura de la consulta, con una base SEO integrada desde el inicio.",
+    "proj.zaballos.type": "Sitio web · Sanidad",
+    "proj.zaballos.desc": "Sitio web para una endodoncista en Burdeos — una presentación clara de la especialidad y del microscopio operatorio, con doble entrada para pacientes y dentistas derivadores, en una identidad refinada en azul y marfil, con datos estructurados y SEO local integrados desde el inicio.",
     "proj.structuredData": "Datos estructurados (SEO)",
 
     "skills.tag": "04 / Aptitudes",
